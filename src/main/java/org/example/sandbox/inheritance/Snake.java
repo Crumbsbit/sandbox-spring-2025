@@ -1,4 +1,9 @@
 package org.example.sandbox.inheritance;
 
-public class Snake {
+public class Snake implements Animal {
+
+    @Override
+    public void eat(String food) {
+
+    }
 }

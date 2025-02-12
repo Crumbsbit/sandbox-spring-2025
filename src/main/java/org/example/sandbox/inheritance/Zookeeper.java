@@ -2,9 +2,14 @@ package org.example.sandbox.inheritance;
 
 public class Zookeeper {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Zookeeper zookeeper = new Zookeeper();
-        zookeeper.feed(new Lion());
-        zookeeper.feed(new Tiger());
+
+        Crow bird = new Crow();
+
+        bird.fly();
+        bird.layEggs();
+        bird.count();
     }
 }
