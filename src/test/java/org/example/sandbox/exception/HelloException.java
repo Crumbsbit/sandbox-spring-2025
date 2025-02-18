@@ -2,6 +2,8 @@ package org.example.sandbox.exception;
 
 import java.util.Scanner;
 
+//This is so I can push again
+
 public class HelloException
 {
     public static void main( String[] args ) {

@@ -1,5 +1,7 @@
 package org.example.sandbox.exception;
 
+//This is so I can push again
+
 public class DivideByZeroException extends Exception
 {
     public DivideByZeroException()
